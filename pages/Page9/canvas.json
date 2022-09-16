@@ -1,0 +1,89 @@
+{
+  "unpublishedPage": {
+    "name": "Page9",
+    "slug": "page9",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1240,
+          "containerStyle": "none",
+          "snapRows": 124,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 59,
+          "minHeight": 1250,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "RichTextEditor1",
+              "displayName": "Rich Text Editor",
+              "iconSVG": "/static/media/icon.b35e139c93907b5eab3c68c1db842330.svg",
+              "labelText": "Label",
+              "searchTags": [
+                "input",
+                "rte"
+              ],
+              "topRow": 60,
+              "bottomRow": 97,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "RICH_TEXT_EDITOR_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 30.0625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 12,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                }
+              ],
+              "labelPosition": "Left",
+              "inputType": "html",
+              "isDisabled": false,
+              "key": "74gm8r3ddh",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 36,
+              "isDefaultClickDisabled": true,
+              "widgetId": "vyogiclacq",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "defaultText": "This is the initial <b>content</b> of the editor"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "validOnPageLoadActions": true,
+        "id": "Page9",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "62e0ec861d816b5fddf413b2_62ea6e0c4003a7259a310e2d"
+}
