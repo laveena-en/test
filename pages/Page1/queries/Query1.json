@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "SelectQuery",
+    "name": "Query1",
     "datasource": {
       "name": "users",
       "pluginId": "postgres-plugin",
@@ -13,36 +13,37 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page10",
+    "pageId": "Page1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM public.\"users\"\nWHERE \"name\" ilike '%{{data_table.searchText || \"\"}}%'\nORDER BY \"{{data_table.sortOrder.column || 'id'}}\" {{data_table.sortOrder.order || 'ASC'}}\nLIMIT {{data_table.pageSize}}\nOFFSET {{(data_table.pageNo - 1) * data_table.pageSize}};",
+      "body": "SELECT id, name FROM users\nWHERE name LIKE '{{'%'+ MultiSelect2.filterText + '%'}}'\nORDER BY id LIMIT 10;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ]
     },
     "executeOnLoad": true,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "(data_table.pageNo - 1) * data_table.pageSize",
-      "data_table.pageSize",
-      "data_table.searchText || \"\"",
-      "data_table.sortOrder.column || 'id'",
-      "data_table.sortOrder.order || 'ASC'"
+      "'%'+ MultiSelect2.filterText + '%'"
     ],
-    "userSetOnLoad": true,
+    "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page10_SelectQuery",
+  "id": "Page1_Query1",
   "deleted": false,
-  "gitSyncId": "62e0ec861d816b5fddf413b2_62f1f61bb2f8027edfbfef16"
+  "gitSyncId": "62e0ec861d816b5fddf413b2_63b65dd75b7acd601d980138"
 }
