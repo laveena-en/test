@@ -258,11 +258,10 @@
               "zoomLevel": 60,
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "widgetName": "Map1",
-              "defaultMarkers": [
+              "defaultMarkers": "[\n  {\n    \"lat\": 9.9312,\n    \"long\": 76.2673,\n    \"title\": \"Home\"\n  }\n]",
+              "dynamicPropertyPathList": [
                 {
-                  "lat": 25.122,
-                  "long": 50.132,
-                  "title": "Location1"
+                  "key": "mapCenter"
                 }
               ],
               "displayName": "Map",
@@ -286,10 +285,7 @@
                 }
               ],
               "enablePickLocation": true,
-              "mapCenter": {
-                "lat": 25.122,
-                "long": 50.132
-              },
+              "mapCenter": "{\n  \"lat\": 9.9312328,\n  \"long\": 76.26730409999999,\n  \"title\": \"Cochin\"\n}",
               "isClickedMarkerCentered": true,
               "isDisabled": false,
               "enableSearch": true,
