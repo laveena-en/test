@@ -1,0 +1,3 @@
+SELECT id, name FROM users
+WHERE name LIKE '{{'%'+ MultiSelect2.filterText + '%'}}'
+ORDER BY id LIMIT 10;

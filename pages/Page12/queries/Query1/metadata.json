@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "DeleteQuery",
+    "name": "Query1",
     "datasource": {
       "name": "users",
       "pluginId": "postgres-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page10",
+    "pageId": "Page12",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "DELETE FROM public.\"users\"\n  WHERE \"id\" = {{data_table.triggeredRow.id}};",
+      "body": "SELECT * FROM users ORDER BY id LIMIT 10;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,19 +26,19 @@
         }
       ]
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "data_table.triggeredRow.id"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2022-08-18T10:37:19Z"
   },
-  "id": "Page10_DeleteQuery",
+  "id": "Page12_Query1",
   "deleted": false,
-  "gitSyncId": "62e0ec861d816b5fddf413b2_62f1f61bb2f8027edfbfef19"
+  "gitSyncId": "62e0ec861d816b5fddf413b2_62fe165f76beab484762392b"
 }

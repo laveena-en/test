@@ -33,6 +33,7 @@
         "widgetId": "ptw43884px",
         "topRow": 0,
         "containerStyle": "none",
+        "bottomRow": 120,
         "parentRowSpace": 1,
         "isVisible": true,
         "type": "CANVAS_WIDGET",
