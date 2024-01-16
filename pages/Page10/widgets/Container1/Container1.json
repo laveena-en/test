@@ -1,24 +1,15 @@
 {
-    "labelTextSize": "0.875rem",
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "widgetName": "Container1",
     "borderColor": "#fff",
-    "backgroundColor": "#FFFFFF",
-    "rightColumn": 39,
     "dynamicPropertyPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"}
     ],
-    "widgetId": "mvubsemxfo",
     "topRow": 0,
     "bottomRow": 86,
-    "containerStyle": "card",
     "parentRowSpace": 10,
-    "isVisible": "true",
     "type": "CONTAINER_WIDGET",
-    "version": 1,
-    "parentId": "0",
-    "isLoading": false,
     "parentColumnSpace": 19.75,
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
@@ -26,7 +17,6 @@
         {"key": "borderRadius"},
         {"key": "boxShadow"}
     ],
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "children": [{
         "labelTextSize": "0.875rem",
         "boxShadow": "none",
@@ -51,5 +41,18 @@
         "dynamicBindingPathList": [],
         "borderRadius": "0px"
     }],
-    "borderWidth": "0"
+    "borderWidth": "0",
+    "labelTextSize": "0.875rem",
+    "backgroundColor": "#FFFFFF",
+    "rightColumn": 39,
+    "dynamicHeight": "FIXED",
+    "widgetId": "mvubsemxfo",
+    "containerStyle": "card",
+    "isVisible": "true",
+    "version": 1,
+    "parentId": "0",
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
 }

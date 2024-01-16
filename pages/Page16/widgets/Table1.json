@@ -480,6 +480,7 @@
     "textSize": "0.875rem",
     "widgetId": "cq58jw293v",
     "allowAddNewRow": true,
+    "enableServerSideFiltering": false,
     "minWidth": 450,
     "tableData": "{{Select_query1.data}}",
     "label": "Data",

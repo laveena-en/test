@@ -70,6 +70,7 @@
     "rightColumn": 45,
     "textSize": "0.875rem",
     "widgetId": "fwwciinj83",
+    "enableServerSideFiltering": false,
     "minWidth": 450,
     "label": "Data",
     "searchKey": "",

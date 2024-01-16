@@ -17,17 +17,7 @@
         {"key": "primaryColumns.action.boxShadow"},
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "boxShadow"},
-        {"key": "childStylesheet.button.buttonColor"},
-        {"key": "childStylesheet.button.borderRadius"},
-        {"key": "childStylesheet.menuButton.menuColor"},
-        {"key": "childStylesheet.menuButton.borderRadius"},
-        {"key": "childStylesheet.iconButton.buttonColor"},
-        {"key": "childStylesheet.iconButton.borderRadius"},
-        {"key": "childStylesheet.editActions.saveButtonColor"},
-        {"key": "childStylesheet.editActions.saveBorderRadius"},
-        {"key": "childStylesheet.editActions.discardButtonColor"},
-        {"key": "childStylesheet.editActions.discardBorderRadius"}
+        {"key": "boxShadow"}
     ],
     "leftColumn": 12,
     "delimiter": ",",
@@ -63,6 +53,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "columnUpdatedAt": 1705399753699,
     "defaultSelectedRowIndices": [0],
     "widgetName": "Table1",
     "defaultPageSize": 0,
@@ -72,7 +63,7 @@
         "status",
         "action"
     ],
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "tableData"}],
     "compactMode": "DEFAULT",
     "displayName": "Table",
     "bottomRow": 60,
@@ -100,20 +91,27 @@
             "isCellEditable": false,
             "width": 150,
             "enableFilter": true,
+            "sticky": "",
             "alias": "task",
             "enableSort": true,
             "id": "task",
             "originalId": "task",
-            "verticalAlignment": "CENTER"
+            "verticalAlignment": "CENTER",
+            "validation": {}
         },
         "action": {
-            "isCellVisible": true,
             "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( 'none'))}}",
-            "isDerived": false,
             "onClick": "{{currentRow.step === '#1' ? showAlert('Done', 'success') : currentRow.step === '#2' ? navigateTo('https://docs.appsmith.com/core-concepts/connecting-to-data-sources/querying-a-database',undefined,'NEW_WINDOW') : navigateTo('https://docs.appsmith.com/core-concepts/displaying-data-read/display-data-tables',undefined,'NEW_WINDOW')}}",
             "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"action\"]))}}",
-            "textSize": "0.875rem",
             "buttonColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.colors.primaryColor))}}",
+            "alias": "action",
+            "enableSort": true,
+            "id": "action",
+            "isDisabled": false,
+            "validation": {},
+            "isCellVisible": true,
+            "isDerived": false,
+            "textSize": "0.875rem",
             "index": 3,
             "isVisible": true,
             "label": "action",
@@ -124,11 +122,8 @@
             "borderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
             "width": 150,
             "enableFilter": true,
-            "alias": "action",
-            "enableSort": true,
-            "id": "action",
+            "sticky": "",
             "originalId": "action",
-            "isDisabled": false,
             "verticalAlignment": "CENTER"
         },
         "step": {
@@ -145,11 +140,13 @@
             "isCellEditable": false,
             "width": 150,
             "enableFilter": true,
+            "sticky": "",
             "alias": "step",
             "enableSort": true,
             "id": "step",
             "originalId": "step",
-            "verticalAlignment": "CENTER"
+            "verticalAlignment": "CENTER",
+            "validation": {}
         },
         "status": {
             "isCellVisible": true,
@@ -165,18 +162,22 @@
             "isCellEditable": false,
             "width": 150,
             "enableFilter": true,
+            "sticky": "",
             "alias": "status",
             "enableSort": true,
             "id": "status",
             "originalId": "status",
-            "verticalAlignment": "CENTER"
+            "verticalAlignment": "CENTER",
+            "validation": {}
         }
     },
     "key": "16ca6fc9bj",
+    "canFreezeColumn": false,
     "isDeprecated": false,
     "rightColumn": 46,
     "textSize": "0.875rem",
     "widgetId": "m2gnhn3tf5",
+    "enableServerSideFiltering": false,
     "tableData": [
         {
             "task": "Drop a table",

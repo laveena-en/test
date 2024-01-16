@@ -30,6 +30,7 @@
     "isDeprecated": false,
     "rightColumn": 36,
     "isDefaultClickDisabled": true,
+    "dynamicHeight": "FIXED",
     "widgetId": "vyogiclacq",
     "isVisible": true,
     "version": 1,
@@ -38,5 +39,7 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "defaultText": "This is the initial <b>content<\/b> of the editor"
+    "maxDynamicHeight": 9000,
+    "defaultText": "This is the initial <b>content<\/b> of the editor",
+    "minDynamicHeight": 4
 }

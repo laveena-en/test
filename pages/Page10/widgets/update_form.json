@@ -315,6 +315,7 @@
     "labelTextSize": "0.875rem",
     "backgroundColor": "#FFFFFF",
     "rightColumn": 64,
+    "dynamicHeight": "FIXED",
     "autoGenerateForm": true,
     "widgetId": "y5cjzuxnb3",
     "resetButtonStyles": {
@@ -409,5 +410,7 @@
         }
     },
     "disabledWhenInvalid": true,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
 }

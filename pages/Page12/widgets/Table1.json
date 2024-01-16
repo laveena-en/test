@@ -11,16 +11,6 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "childStylesheet.button.buttonColor"},
-        {"key": "childStylesheet.button.borderRadius"},
-        {"key": "childStylesheet.menuButton.menuColor"},
-        {"key": "childStylesheet.menuButton.borderRadius"},
-        {"key": "childStylesheet.iconButton.buttonColor"},
-        {"key": "childStylesheet.iconButton.borderRadius"},
-        {"key": "childStylesheet.editActions.saveButtonColor"},
-        {"key": "childStylesheet.editActions.saveBorderRadius"},
-        {"key": "childStylesheet.editActions.discardButtonColor"},
-        {"key": "childStylesheet.editActions.discardBorderRadius"},
         {"key": "tableData"},
         {"key": "primaryColumns.id.computedValue"},
         {"key": "primaryColumns.gender.computedValue"},
@@ -67,6 +57,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "columnUpdatedAt": 1705399753716,
     "defaultSelectedRowIndices": [0],
     "widgetName": "Table1",
     "defaultPageSize": 0,
@@ -82,7 +73,7 @@
         "country",
         "name"
     ],
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "tableData"}],
     "compactMode": "SHORT",
     "displayName": "Table",
     "bottomRow": 59,
@@ -112,13 +103,15 @@
             "isEditable": false,
             "width": 150,
             "enableFilter": true,
+            "sticky": "",
             "alias": "image",
             "enableSort": true,
             "isSaveVisible": true,
             "originalId": "image",
             "id": "image",
             "isDisabled": false,
-            "verticalAlignment": "CENTER"
+            "verticalAlignment": "CENTER",
+            "validation": {}
         },
         "country": {
             "isCellVisible": true,
@@ -136,13 +129,15 @@
             "isEditable": false,
             "width": 150,
             "enableFilter": true,
+            "sticky": "",
             "alias": "country",
             "enableSort": true,
             "isSaveVisible": true,
             "originalId": "country",
             "id": "country",
             "isDisabled": false,
-            "verticalAlignment": "CENTER"
+            "verticalAlignment": "CENTER",
+            "validation": {}
         },
         "gender": {
             "isCellVisible": true,
@@ -160,13 +155,15 @@
             "isEditable": false,
             "width": 150,
             "enableFilter": true,
+            "sticky": "",
             "alias": "gender",
             "enableSort": true,
             "isSaveVisible": true,
             "originalId": "gender",
             "id": "gender",
             "isDisabled": false,
-            "verticalAlignment": "CENTER"
+            "verticalAlignment": "CENTER",
+            "validation": {}
         },
         "phone": {
             "isCellVisible": true,
@@ -184,13 +181,15 @@
             "isEditable": false,
             "width": 150,
             "enableFilter": true,
+            "sticky": "",
             "alias": "phone",
             "enableSort": true,
             "isSaveVisible": true,
             "originalId": "phone",
             "id": "phone",
             "isDisabled": false,
-            "verticalAlignment": "CENTER"
+            "verticalAlignment": "CENTER",
+            "validation": {}
         },
         "dob": {
             "isCellVisible": true,
@@ -208,13 +207,15 @@
             "isEditable": false,
             "width": 150,
             "enableFilter": true,
+            "sticky": "",
             "alias": "dob",
             "enableSort": true,
             "isSaveVisible": true,
             "originalId": "dob",
             "id": "dob",
             "isDisabled": false,
-            "verticalAlignment": "CENTER"
+            "verticalAlignment": "CENTER",
+            "validation": {}
         },
         "latitude": {
             "isCellVisible": true,
@@ -232,13 +233,15 @@
             "isEditable": false,
             "width": 150,
             "enableFilter": true,
+            "sticky": "",
             "alias": "latitude",
             "enableSort": true,
             "isSaveVisible": true,
             "originalId": "latitude",
             "id": "latitude",
             "isDisabled": false,
-            "verticalAlignment": "CENTER"
+            "verticalAlignment": "CENTER",
+            "validation": {}
         },
         "name": {
             "isCellVisible": true,
@@ -256,13 +259,15 @@
             "isEditable": false,
             "width": 150,
             "enableFilter": true,
+            "sticky": "",
             "alias": "name",
             "enableSort": true,
             "isSaveVisible": true,
             "originalId": "name",
             "id": "name",
             "isDisabled": false,
-            "verticalAlignment": "CENTER"
+            "verticalAlignment": "CENTER",
+            "validation": {}
         },
         "id": {
             "isCellVisible": true,
@@ -280,13 +285,15 @@
             "isEditable": false,
             "width": 150,
             "enableFilter": true,
+            "sticky": "",
             "alias": "id",
             "enableSort": true,
             "isSaveVisible": true,
             "originalId": "id",
             "id": "id",
             "isDisabled": false,
-            "verticalAlignment": "CENTER"
+            "verticalAlignment": "CENTER",
+            "validation": {}
         },
         "email": {
             "isCellVisible": true,
@@ -304,13 +311,15 @@
             "isEditable": false,
             "width": 150,
             "enableFilter": true,
+            "sticky": "",
             "alias": "email",
             "enableSort": true,
             "isSaveVisible": true,
             "originalId": "email",
             "id": "email",
             "isDisabled": false,
-            "verticalAlignment": "CENTER"
+            "verticalAlignment": "CENTER",
+            "validation": {}
         },
         "longitude": {
             "isCellVisible": true,
@@ -328,20 +337,24 @@
             "isEditable": false,
             "width": 150,
             "enableFilter": true,
+            "sticky": "",
             "alias": "longitude",
             "enableSort": true,
             "isSaveVisible": true,
             "originalId": "longitude",
             "id": "longitude",
             "isDisabled": false,
-            "verticalAlignment": "CENTER"
+            "verticalAlignment": "CENTER",
+            "validation": {}
         }
     },
     "key": "w3hynjstf8",
+    "canFreezeColumn": false,
     "isDeprecated": false,
     "rightColumn": 30,
     "textSize": "0.875rem",
     "widgetId": "fn49u7v21o",
+    "enableServerSideFiltering": false,
     "tableData": "{{Query1.data}}",
     "label": "Data",
     "searchKey": "",

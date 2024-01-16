@@ -2,6 +2,7 @@
     "boxShadow": "none",
     "widgetName": "MultiSelect1Copy",
     "isFilterable": true,
+    "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "MultiSelect",
     "iconSVG": "/static/media/icon.a3495809ae48291a64404f3bb04b0e69.svg",
     "labelText": "Label",
@@ -28,7 +29,9 @@
         {"key": "borderRadius"}
     ],
     "labelPosition": "Left",
-    "options": [
+    "placeholderText": "Select option(s)",
+    "isDisabled": false,
+    "sourceData": [
         {
             "label": "Blue",
             "value": "BLUE"
@@ -42,20 +45,23 @@
             "value": "RED"
         }
     ],
-    "placeholderText": "Select option(s)",
-    "isDisabled": false,
     "key": "xrx5z7oeku",
     "labelTextSize": "0.875rem",
     "isRequired": false,
     "isDeprecated": false,
     "rightColumn": 24,
+    "dynamicHeight": "FIXED",
     "widgetId": "gvcxqulmx4",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "optionValue": "value",
     "isVisible": true,
     "version": 1,
     "parentId": "0",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+    "optionLabel": "label",
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
 }

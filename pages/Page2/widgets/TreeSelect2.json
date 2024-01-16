@@ -52,6 +52,7 @@
     "isRequired": false,
     "isDeprecated": false,
     "rightColumn": 30,
+    "dynamicHeight": "FIXED",
     "widgetId": "wzk9h7310f",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,
@@ -62,5 +63,7 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "allowClear": true
+    "maxDynamicHeight": 9000,
+    "allowClear": true,
+    "minDynamicHeight": 4
 }
