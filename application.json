@@ -5,10 +5,6 @@
       "isDefault": true
     },
     {
-      "id": "Page2",
-      "isDefault": false
-    },
-    {
       "id": "Page3",
       "isDefault": false
     },
@@ -66,6 +62,14 @@
     },
     {
       "id": "Page17",
+      "isDefault": false
+    },
+    {
+      "id": "Page18",
+      "isDefault": false
+    },
+    {
+      "id": "Page19",
       "isDefault": false
     }
   ],

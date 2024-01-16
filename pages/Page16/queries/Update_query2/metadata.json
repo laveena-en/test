@@ -65,7 +65,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-11-08T08:07:44Z"
   },
   "id": "Page16_Update_query2",
   "deleted": false,
