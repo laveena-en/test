@@ -37,6 +37,7 @@
             }
           ]
         ],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Page3",
         "deleted": false,

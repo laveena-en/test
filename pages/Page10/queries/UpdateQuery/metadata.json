@@ -45,7 +45,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2022-08-09T05:52:27Z"
   },
   "id": "Page10_UpdateQuery",
   "deleted": false,

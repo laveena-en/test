@@ -1,0 +1,1 @@
+SELECT * FROM users where email {{MultiSelect1.filterText ? "~*" : "IS NOT"}} {{MultiSelect1.filterText ? "'"+MultiSelect1.filterText+"'" : null}} Limit 20;

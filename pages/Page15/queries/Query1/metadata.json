@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "Query3",
+    "name": "Query1",
     "datasource": {
       "name": "users",
       "pluginId": "postgres-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Page15",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -26,7 +26,7 @@
         }
       ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -35,9 +35,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-06-23T14:22:43Z"
   },
-  "id": "Page1_Query3",
+  "id": "Page15_Query1",
   "deleted": false,
-  "gitSyncId": "62e0ec861d816b5fddf413b2_63bf91ce96c9042751e5b8a3"
+  "gitSyncId": "62e0ec861d816b5fddf413b2_6495aab3653d4009a0dfe624"
 }
