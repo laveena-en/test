@@ -1,34 +1,44 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "widgetName": "Iframe1",
-    "displayName": "Iframe",
-    "iconSVG": "/static/media/icon.34169b6acebc8ace125dd1f638974aae.svg",
-    "searchTags": ["embed"],
-    "topRow": 31,
-    "bottomRow": 95,
-    "parentRowSpace": 10,
-    "source": "https://satishgandham.com/smith-framme.html",
-    "type": "IFRAME_WIDGET",
-    "hideCard": false,
-    "borderOpacity": 100,
-    "animateLoading": true,
-    "parentColumnSpace": 30.0625,
-    "dynamicTriggerPathList": [{"key": "onURLChanged"}],
-    "leftColumn": 14,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"}
-    ],
-    "borderWidth": 1,
-    "key": "6rk0elrdbz",
-    "isDeprecated": false,
-    "rightColumn": 38,
-    "widgetId": "mw9u3yfdzj",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "0",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "onURLChanged": "{{navigateTo('https://github.com/appsmithorg/appsmith/issues?q=is%3Aissue+is%3Aopen+iframe', {},'SAME_WINDOW')}}",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+  "animateLoading": true,
+  "borderOpacity": 100,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": 1,
+  "bottomRow": 95,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "displayName": "Iframe",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onURLChanged"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.34169b6acebc8ace125dd1f638974aae.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "6rk0elrdbz",
+  "leftColumn": 14,
+  "onURLChanged": "{{navigateTo('https://github.com/appsmithorg/appsmith/issues?q=is%3Aissue+is%3Aopen+iframe', {},'SAME_WINDOW')}}",
+  "parentColumnSpace": 30.0625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 38,
+  "searchTags": [
+    "embed"
+  ],
+  "source": "https://satishgandham.com/smith-framme.html",
+  "topRow": 31,
+  "type": "IFRAME_WIDGET",
+  "version": 1,
+  "widgetId": "mw9u3yfdzj",
+  "widgetName": "Iframe1"
 }

@@ -1,43 +1,47 @@
 {
-    "zoomLevel": 60,
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "widgetName": "Map1",
-    "defaultMarkers": "[\n  {\n    \"lat\": 9.9312,\n    \"long\": 76.2673,\n    \"title\": \"Home\"\n  }\n]",
-    "dynamicPropertyPathList": [],
-    "displayName": "Map",
-    "iconSVG": "/static/media/icon.ddde7d1b6b4d64050fde21a347260464.svg",
-    "topRow": 53,
-    "bottomRow": 93,
-    "parentRowSpace": 10,
-    "type": "MAP_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "allowZoom": true,
-    "parentColumnSpace": 30.0625,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 7,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"}
-    ],
-    "enablePickLocation": true,
-    "mapCenter": {
-        "title": "Cochin",
-        "lat": 9.9312328,
-        "long": 76.26730409999999
+  "allowZoom": true,
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 93,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "defaultMarkers": "[\n  {\n    \"lat\": 9.9312,\n    \"long\": 76.2673,\n    \"title\": \"Home\"\n  }\n]",
+  "displayName": "Map",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
     },
-    "isClickedMarkerCentered": false,
-    "isDisabled": false,
-    "enableSearch": true,
-    "key": "9gl1yfnhbq",
-    "isDeprecated": false,
-    "rightColumn": 31,
-    "widgetId": "xd04jx44pl",
-    "enableCreateMarker": true,
-    "isVisible": true,
-    "version": 1,
-    "parentId": "0",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "enableCreateMarker": true,
+  "enablePickLocation": true,
+  "enableSearch": true,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.ddde7d1b6b4d64050fde21a347260464.svg",
+  "isClickedMarkerCentered": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "9gl1yfnhbq",
+  "leftColumn": 7,
+  "mapCenter": {
+    "lat": 9.9312328,
+    "long": 76.26730409999999,
+    "title": "Cochin"
+  },
+  "parentColumnSpace": 30.0625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 31,
+  "topRow": 53,
+  "type": "MAP_WIDGET",
+  "version": 1,
+  "widgetId": "xd04jx44pl",
+  "widgetName": "Map1",
+  "zoomLevel": 60
 }

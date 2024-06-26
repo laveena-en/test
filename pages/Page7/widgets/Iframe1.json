@@ -1,35 +1,45 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "widgetName": "Iframe1",
-    "srcDoc": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>My Website<\/title>\n    <style>\n      body {\n        width: 650px;\n        margin: 0 auto;\n        text-align: center;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <h1>This is my Appsmith app<\/h1>\n    <div>\n      <input type=\"text\" id='message-input' placeholder=\"Type message here\" />\n      <button>Post message to Appsmith<\/button>\n    <\/div>\n  <\/body>\n  <script>\n    const button = document.querySelector('button');\n    const input = document.querySelector('#message-input');\n    button.addEventListener('click', ()=> {\n      console.log(input.value);\n      window.parent.postMessage(input.value)\n    });\n  <\/script>\n<\/html>",
-    "displayName": "Iframe",
-    "iconSVG": "/static/media/icon.34169b6acebc8ace125dd1f638974aae.svg",
-    "searchTags": ["embed"],
-    "topRow": 35,
-    "bottomRow": 67,
-    "parentRowSpace": 10,
-    "source": "",
-    "type": "IFRAME_WIDGET",
-    "hideCard": false,
-    "borderOpacity": 100,
-    "animateLoading": true,
-    "parentColumnSpace": 30.0625,
-    "dynamicTriggerPathList": [{"key": "onSrcDocChanged"}],
-    "leftColumn": 15,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"}
-    ],
-    "borderWidth": 1,
-    "key": "rdsuvoz2ud",
-    "isDeprecated": false,
-    "rightColumn": 39,
-    "widgetId": "x4faf5h2y2",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "0",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "onSrcDocChanged": "{{navigateTo('Page1', {})}}"
+  "animateLoading": true,
+  "borderOpacity": 100,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": 1,
+  "bottomRow": 67,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "displayName": "Iframe",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onSrcDocChanged"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.34169b6acebc8ace125dd1f638974aae.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "rdsuvoz2ud",
+  "leftColumn": 15,
+  "onSrcDocChanged": "{{navigateTo('Page1', {})}}",
+  "parentColumnSpace": 30.0625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 39,
+  "searchTags": [
+    "embed"
+  ],
+  "source": "",
+  "srcDoc": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>My Website</title>\n    <style>\n      body {\n        width: 650px;\n        margin: 0 auto;\n        text-align: center;\n      }\n    </style>\n  </head>\n  <body>\n    <h1>This is my Appsmith app</h1>\n    <div>\n      <input type=\"text\" id='message-input' placeholder=\"Type message here\" />\n      <button>Post message to Appsmith</button>\n    </div>\n  </body>\n  <script>\n    const button = document.querySelector('button');\n    const input = document.querySelector('#message-input');\n    button.addEventListener('click', ()=> {\n      console.log(input.value);\n      window.parent.postMessage(input.value)\n    });\n  </script>\n</html>",
+  "topRow": 35,
+  "type": "IFRAME_WIDGET",
+  "version": 1,
+  "widgetId": "x4faf5h2y2",
+  "widgetName": "Iframe1"
 }
