@@ -1,5 +1,12 @@
 {
   "appIsExample": false,
+  "applicationDetail": {
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  },
   "applicationVersion": 2,
   "color": "#F3F1C7",
   "evaluationVersion": 2,
@@ -61,5 +68,12 @@
       "id": "Page14",
       "isDefault": false
     }
-  ]
+  ],
+  "unpublishedApplicationDetail": {
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  }
 }
